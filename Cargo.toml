@@ -1,0 +1,12 @@
+[package]
+name = "ooga"
+version = "0.1.0"
+authors = ["bollo35 <bollo35@users.noreply.github.com>"]
+
+[dependencies]
+openssl = {git ="https://github.com/sfackler/rust-openssl"}
+rand = "0.5"
+flate2 = { version = "1.0", features = ["zlib"], default-features=false }
+lazy_static = "1.0"
+rocket = "0.3.8"
+rocket_codegen = "0.3.8"
