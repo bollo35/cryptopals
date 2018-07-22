@@ -1,5 +1,5 @@
 # Cryptopals
-There are solutions to the (cryptopals challenges)[http://cryptopals.com/]
+There are solutions to the [cryptopals challenges](http://cryptopals.com/)
 
 You can run each solution by using:
 `cargo run --bin p0##`
